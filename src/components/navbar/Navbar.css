@@ -1,0 +1,90 @@
+.navbar{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.logo{
+    font-size: 38px;
+    font-weight: 700;
+    color: #ff4141;
+}
+.nav-logo span{
+    font-size: 34px;
+    font-weight: 700;
+}
+.nav-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    color: #090909;
+    gap: 30px;
+}
+.menu-link{
+    text-decoration: none;
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #ff4141;
+}
+.nav-menu li{
+    font-size: 22px;
+    font-weight: 500;
+    color: #090909;
+}
+.nav-sign-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.nav-sign-cart button{
+    width: 90px;
+    height: 33px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: #090909;
+}
+.cart{
+    position: relative;
+
+}
+.nav-icon{
+    font-weight: 500;
+    font-size: 34px;
+    position: relative;
+}
+.nav-badge{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background: #ff4141;
+    top: -7px;
+    right: -7px;
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+}
